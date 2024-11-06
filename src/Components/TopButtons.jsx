@@ -2,7 +2,7 @@ const TopButtons = () => {
   const cities = [
     {
       id: 1,
-      title: "London",
+      title: "Kolkata",
     },
     {
       id: 2,
@@ -10,15 +10,15 @@ const TopButtons = () => {
     },
     {
       id: 3,
-      title: "New York",
+      title: "Mumbai",
     },
     {
       id: 4,
-      title: "Berlin",
+      title: "Delhi",
     },
     {
       id: 5,
-      title: "AmsterDam",
+      title: "Chandigarh",
     },
   ];
   return (

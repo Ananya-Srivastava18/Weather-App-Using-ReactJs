@@ -5,6 +5,7 @@ import { GiSunrise } from "react-icons/gi";
 import { GiSunset } from "react-icons/gi";
 import { FaTemperatureArrowUp } from "react-icons/fa6";
 import { FaTemperatureArrowDown } from "react-icons/fa6";
+
 const TemperatureAndDetails = () => {
   const verticalDetails = [
     {
@@ -45,7 +46,12 @@ const TemperatureAndDetails = () => {
       title: "High",
       value: "39°",
     },
-    { id: 4, Icon: FaTemperatureArrowDown, title: "Low", value: "25°" },
+    {
+      id: 4,
+      Icon: FaTemperatureArrowDown,
+      title: "Low",
+      value: "25°",
+    },
   ];
   return (
     <div>
@@ -74,15 +80,14 @@ const TemperatureAndDetails = () => {
         </div>
       </div>
 
-      <div className="flex flex-row items-center justify-center space-x-10 py-3">
+      <div className="flex flex-row items-center justify-center space-x-10  text-sm py-3">
         {horizontalDetails.map(({ id, Icon, title, value }) => (
           <div
             key={id}
             className="flex flex-row text-sm items-center justify-center"
           >
-            <Icon size={30} className="mr-1" />
+            <Icon size={30} />
             <p className="font-light ml-1">
-              {" "}
               {`${title}:`}
               <span className="font-medium ml-1">{value}</span>
             </p>

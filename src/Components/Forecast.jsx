@@ -1,3 +1,5 @@
+import React from "react";
+
 const Forecast = () => {
   const data = [1, 2, 3, 4, 5];
   return (
@@ -16,7 +18,7 @@ const Forecast = () => {
             <p className="font-light text-sm">Wed</p>
             <img
               src="https://openweathermap.org/img/wn/01d@2x.png"
-              alt=""
+              alt="weather icon"
               className="w-12 my-1"
             />
             <p className="font-medium">12°</p>
