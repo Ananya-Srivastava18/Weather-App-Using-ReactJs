@@ -1,7 +1,5 @@
 ﻿# Weather-App-Using-ReactJs
 
-[Click Here To Open!!](https://ananya-srivastava18.github.io/Weather-App-Using-ReactJs/)
-
 ## Project Overview
 
 The React Weather App is a web application designed to provide users with real-time weather information for any location worldwide. Built using React.js, this app leverages the OpenWeather API to fetch and display weather data, offering a seamless and interactive user experience. The project showcases the power of React in building dynamic and responsive web applications.
